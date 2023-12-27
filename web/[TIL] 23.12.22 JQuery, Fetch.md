@@ -137,7 +137,7 @@ function openclose() {
 }
 ```
  
-
+<p></p>
 **(2) PostBox에 원하는 값 입력 시 카드를 생성**
 ![](https://velog.velcdn.com/images/hrnn00/post/05eac9b8-d9f5-475e-bdff-00fe00bd2374/image.png)
 
