@@ -165,6 +165,7 @@ function makeCard() {
         $("#card").append(temp_html);
 }
 ```
+<p></p>
 왜인지는 모르겠는데 자꾸 title 값을 가져오는게 안되서 id 이름을 mytitle로 바꿔서 작성했더니 됐다. 왜지?????????????
 
  
