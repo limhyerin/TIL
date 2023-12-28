@@ -6,6 +6,7 @@
   + [Javascript, JQuery](https://github.com/limhyerin/TIL/blob/main/web/%5BTIL%5D%2023.12.22%20Javascript%2C%20JQuery.md)
   + [Firebase 세팅](https://github.com/limhyerin/TIL/blob/main/web/%5BTIL%5D%2023.12.26%20Firebase%20%EC%84%B8%ED%8C%85.md)
   + [database, Firebase](https://github.com/limhyerin/TIL/blob/main/web/%5BTIL%5D%2023.12.26%20database%2C%20Firebase.md)
+  + [Javascript 문법(1)](https://github.com/limhyerin/TIL/blob/main/web/%5BTIL%5D%2023.12.28%20Javascript%20-%20%EA%B8%B0%EB%B3%B8%EB%AC%B8%EB%B2%95(1).md)
 
 ### GIT/GITHUB   
   + [GIT 사용법 정리](https://github.com/limhyerin/TIL/blob/main/web/%5BTIL%5D%2023.12.26%20GIT%20%EC%82%AC%EC%9A%A9%EB%B2%95%20%EC%A0%95%EB%A6%AC.md)
