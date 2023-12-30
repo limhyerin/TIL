@@ -24,10 +24,11 @@ git push -u origin main
 ###  3) 현재 위치 확인(pwd)
 
 가장 먼저 해야할 일은 현재 위치가 업로드하고자하는 파일이 있는 위치가 맞는지 확인하는 것이다. 엉뚱한 위치에 있다면 의도치 않게 업로드할 생각이 없던 파일들이 업로드될 수 있다. 꼭 확인 필수!
+<p></p>
 
 ![](https://velog.velcdn.com/images/hrnn00/post/bb779483-4132-448b-b2ad-ebc9db7a3a63/image.png)
 
- 
+<p></p>
 
 ###  4) git init
 
@@ -36,26 +37,39 @@ git push -u origin main
 해당 명령어는 프로젝트 시작 전 딱 한 번만 입력하면 되며 정확한 프로젝트 폴더(경로)에서 입력해야 한다.
 
 사용하기 전, 터미널에서 pwd 명령어를 통해 해당 위치를 확인하고 git init를 사용한다.
+<p></p>
+
 ![](https://velog.velcdn.com/images/hrnn00/post/ba4315a2-a2fb-43ce-b5db-ef537739b8b3/image.png)
 
-
+<p></p>
 
 ###  5) ls -a
 
 ls명령어를 사용하여 현재 디렉토리에 있는 내용을 출력하는데 그중에서도 -a옵션을 활용하여 숨겨진 파일까지 확인할 수 있도록 한다. 그리고 ls -a를 통해 모든 파일을 확인하여 '.git' 가 존재하는 지 확인하면 되는데  '.git'이라는 폴더가 생기면 이때부터 코드 변경을 git에서 추적하기 시작한다.
-![](https://velog.velcdn.com/images/hrnn00/post/7ff7795d-bbd0-4150-9738-e7ae37cec8a2/image.png)
 
+<p></p>
+
+![](https://velog.velcdn.com/images/hrnn00/post/7ff7795d-bbd0-4150-9738-e7ae37cec8a2/image.png)
+<p></p>
 
  
 
 ###  6) git add & git commit -m "메시지 작성"
 
 git add 명령어는 저장하기 전 저장할 파일 지정하는 명령어
+
+<p></p>
+
 ![](https://velog.velcdn.com/images/hrnn00/post/a526188e-6606-44a8-883c-4ed50c115797/image.png)
+<p></p>
+
 git commit -m "메시지"는 실제로 저장하는 명령어
+
+<p></p>
+
 ![](https://velog.velcdn.com/images/hrnn00/post/41371d3b-500b-41c0-b7cf-2a58d8158fc1/image.png)
 
-
+<p></p>
 ```
 git add 1.html
 git commit -m "회원가입 기능 작성 완료"
@@ -75,14 +89,19 @@ git commit -m "메시지 작성"
 ###  7) git branch -M 브랜치명 (==main)
 
 기본 브랜치는 master로 되어있는데 현재는 브랜치명(master)을 main으로 바꿔서 사용하고 있어서 main으로 해준다.
+<p></p>
+
 ![](https://velog.velcdn.com/images/hrnn00/post/4f267f6c-f06b-40a1-8598-953563cc7520/image.png)
 
- 
+ <p></p>
 
 ###  8) git remote add origin github 주소
+
+<p></p>
+
 ![](https://velog.velcdn.com/images/hrnn00/post/e2029e84-ec22-444a-a56c-bf25209130a3/image.png)
 
- 
+ <p></p>
 
 ###  9) git push -u origin 브랜치명
 
