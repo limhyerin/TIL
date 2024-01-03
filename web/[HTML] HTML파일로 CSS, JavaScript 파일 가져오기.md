@@ -58,7 +58,8 @@ css는 <link rel="stylesheet" href="css파일명"> 명령어를 이용하여 sty
     </body>
 </html>
 ```
- 
+
+ <br>
 
 이로써 index.html을 실행시켰을때 웹 페이지에 css 파일을 통해 설정했던 베이지색 배경 컬러가 잘 적용되었음을 볼 수 있고 javascript 파일을 통해 hi를 띄우는 안내창이 뜨는 것을 볼 수 있다.
 
