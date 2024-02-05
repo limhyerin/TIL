@@ -1,4 +1,4 @@
-![image](https://github.com/limhyerin/TIL/assets/70150896/5cebd9d5-fffd-4509-92b5-32e886ce36f6)# ☀️ 2023.12.22 Today I Learned ☀️
+# ☀️ 2023.12.22 Today I Learned ☀️
 >01 프로젝트 - 스파르타 플릭스 <br/>
 02 Javascript 문법 <br/>
 03 JQuery 연습 <br/>
