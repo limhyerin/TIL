@@ -88,6 +88,8 @@ let docs = await getDocs(collection(db, "movies"));
       });
 ``` 
 
+<br/>
+
 ### 02 Github 배포
 Github에서 파일을 업로드해준후
 ![image](https://github.com/limhyerin/TIL/assets/70150896/bd1ac9fb-d3e1-4cb5-8289-40aebb36901e)
