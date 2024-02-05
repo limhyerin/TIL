@@ -1,5 +1,5 @@
 # ☀️ 2023.12.23 Today I Learned ☀️
-01 firebase 세팅 <br/>
+>01 firebase 세팅 <br/>
 02 Github 배포 <br/>
 
 <br/>
