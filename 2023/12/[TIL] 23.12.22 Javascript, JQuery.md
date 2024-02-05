@@ -103,6 +103,8 @@
 </html>
 ```
 
+<br/>
+
  #### 2) 스파르타 플릭스 카드 추가
 
 상단부 아래에 영화 제목과 별점, 코멘트를 작성 할 수 있는 카드를 추가하기 위해 부트스트랩의 card를 이용하여 구현하였다.
@@ -167,6 +169,8 @@ body에서 상단부분 아래에 올 수 있도록 배치해주었다.
     </div>
 ```
 
+<br/>
+
 #### 3) 스파르타 플릭스 포스팅 박스 만들기
 그 다음으로 상단부분과 카드들 사이에 포스팅 박스를 구현하였는데 이또한 부트스트랩을 활용하여 영화 이미지 주소, 영화 제목, 추천이유는 forms의 Floating Labels를 사용하고 별점은 input group의 Custom forms를 사용하였으며 기록하기 버튼은 Buttons를 활용하였다.
 ![image](https://github.com/limhyerin/TIL/assets/70150896/3f88c1fe-1056-4549-9f3d-6adb21d390f2)
@@ -225,6 +229,8 @@ style {
         <button type="button" class="btn btn-danger">기록하기</button>
 </div>
 ```
+
+<br/>
 
 ### 02 Javascript 문법
 #### 1) 변수
@@ -286,7 +292,7 @@ ages.forEach((a)=> {
 ```
 아무래도 다른 언어들에서는 그냥 for문을 활용해서 했던터라 forEach문이 익숙하지가 않은데 익숙해지려고 노력해야겠다..!
 
-
+<br/>
 
 ### 03 JQuery 연습
 기초문법을 배웠으니 연습문제를 풀면서 어떤식으로 동작하는지 알아보았는데 JQuery를 이용해서 결과 확인하기 버튼을 클릭했을때 각각, 리스트, 딕셔너리, 리스트 딕셔너리에서 원하는 값을 출력하는 결과물을 내볼 것이다.
@@ -308,6 +314,8 @@ $('#q1').append(temp);
 let temp2 = `<p>${a}</p>`;
 $('#q1').append(a);
 ```
+
+<br/>
 
 ## ⌨️ 연습해보기 ⌨️
 ![image](https://github.com/limhyerin/TIL/assets/70150896/aa423b72-777b-4fbb-acf1-40fd63e7f0da)
@@ -333,6 +341,8 @@ people.forEach(element => {
      $('#q2').append(temp);
 });
 ```
+
+<br/>
 
 ## 🧷전체코드🧷
 ```html
@@ -402,6 +412,8 @@ people.forEach(element => {
 
 </html>
 ```
+
+<br/>
 
 ## 🧸코멘트🧸
 오늘 계속 가끔씩 JQuery를 사용해서 코드를 작성할때 $('#q1')에서 #을 빼먹고 적었다가 적용이 안되서 왜 안되지하고 계속 노려보고 있었는데 정신 똑바로 차리고 꼼꼼히 작성하도록 노력해야겠다..!
