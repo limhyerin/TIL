@@ -61,7 +61,7 @@ document.querySelector('body').insertAdjacentHTML('beforeend',template);
 # 👾구현👾
 ![image](https://github.com/limhyerin/TIL/assets/70150896/df73fd92-e34f-4da9-9a7c-684f610966b3)
 
-먼저, 구역을 나눠서 title을 <h1>태그를 사용하여 작성해주고 wordle 게임에서 각각의 입력 칸들을 위해 <input> 태그를 5개씩 작성해주고 하나로 묶어줬고 그 다음 또 구역을 나눠서 버튼을 만들어줬다.
+먼저, 구역을 나눠서 title을 h1태그를 사용하여 작성해주고 wordle 게임에서 각각의 입력 칸들을 위해 input 태그를 5개씩 작성해주고 하나로 묶어줬고 그 다음 또 구역을 나눠서 버튼을 만들어줬다.
 ```html
 <div>
     <h1 class="title">WORDLE GAME</h1>
