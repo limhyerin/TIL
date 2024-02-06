@@ -45,7 +45,24 @@ if (runtime >= 60) {
 ## 📁 배운점/개선 사항 📁
 숫자, 영어, 한글, 특수문자 선별해서 구별하는 방법
 ```js
-var pattern1 = /[0-9]/; //숫자 var pattern2 = /[a-zA-Z]/; //영어 var pattern3 = /[ㄱ-ㅎ|ㅏ-ㅣ|가-힣]/; //한글 var pattern4 = /[~!@#\#$%<>^&*]/; //특수문자 var testStr = "테스트test"; //숫자 체크 if (pattern1.test(testStr)) { alert("숫자가 포함"); //false } //영어 체크 if(pattern2.test(testStr)){ alert("영어가 포함"); //true } //한글 체크 if(pattern3.test(testStr)){ alert("한글이 포함"); //true } //한글, 영어 둘다 포함해서 체크 if(pattern3.test(testStr) && pattern2.test(testStr)){ alert("한글 영어 모두 포함"); // true }
+var pattern1 = /[0-9]/; //숫자
+var pattern2 = /[a-zA-Z]/; //영어
+var pattern3 = /[ㄱ-ㅎ|ㅏ-ㅣ|가-힣]/; //한글
+var pattern4 = /[~!@#\#$%<>^&*]/; //특수문자
+var testStr = "테스트test"; //숫자 체크
+
+if (pattern1.test(testStr)) {
+  alert("숫자가 포함"); //false
+} //영어 체크
+if(pattern2.test(testStr)){
+  alert("영어가 포함"); //true
+} //한글 체크
+if(pattern3.test(testStr)){
+  alert("한글이 포함"); //true
+} //한글, 영어 둘다 포함해서 체크
+if(pattern3.test(testStr) && pattern2.test(testStr)){
+  alert("한글 영어 모두 포함"); // true
+}
 ```
 <br/>
 
