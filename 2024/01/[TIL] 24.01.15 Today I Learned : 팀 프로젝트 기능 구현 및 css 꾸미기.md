@@ -1,4 +1,4 @@
-![image](https://github.com/limhyerin/TIL/assets/70150896/c12f5398-1619-414a-ad38-69bfd8ef8aca)# ☀️ 2024.01.15 Today I Learned ☀️
+# ☀️ 2024.01.15 Today I Learned ☀️
 >팀 프로젝트 상세페이지 기능 구현 완료 및 프로젝트 노션 작성
 
 <br/>
