@@ -5,10 +5,10 @@
 
 ## 📖 오늘 공부한 내용 📖
 ### Algorithm
->- [Programmers] 문자열 내 마음대로 정렬하기 (Javascript)
+- [Programmers] 문자열 내 마음대로 정렬하기 (Javascript)
 
 ### React 입문
->- React 들어가기 전 자바스크립트 문법정리
+- React 들어가기 전 자바스크립트 문법정리
 - React 개발환경 세팅
 - CRA
 - 컴포넌트
@@ -19,24 +19,28 @@
 ## 📁 배운 내용 📁
 ### 01  HTML/JSX 영역 자바스크립트 사용
 문장과 버튼을 삽입하여 클릭을 눌렀을때 alert가 뜨도록 하는 예제를 React로 연습해보는데 자연스럽게 늘 하던대로 onclick="함수()"이렇게 해서 함수를 적용해보았는데 기능이 작동되지 않았다. 
-```
+```html
 <span>이것은 내가 만든 App 컴포넌트 입니다</span>
 <button onClick="onclickAlert()">클릭!</button>
+```
+```js
 function onclickAlert() {
     alert("클릭!");
 }
 ```
-React의 HTML/JSX 영역에서는 HTML에서 하던 것과는 다르게 자바스크립트 요소를 넣을때 중괄호를 써서 사용해주어야한다. 그래서 onclick을 하고 중괄호를 써준 뒤 함수이름을 작성해서 클릭 됐을때 alert창을 잘 작동시킬 수 있었다.
+![image](https://github.com/limhyerin/TIL/assets/70150896/a9644323-806b-442b-a2ee-3a7f35fb399e)
 
+React의 HTML/JSX 영역에서는 HTML에서 하던 것과는 다르게 자바스크립트 요소를 넣을때 중괄호를 써서 사용해주어야한다. 그래서 onclick을 하고 중괄호를 써준 뒤 함수이름을 작성해서 클릭 됐을때 alert창을 잘 작동시킬 수 있었다.
+```html
 <span>이것은 내가 만든 App 컴포넌트 입니다</span>
 <button onclick={onclickAlert}>클릭!</button>
+```
+![image](https://github.com/limhyerin/TIL/assets/70150896/534a58e6-a767-4e99-9d55-f3e3eae73483)
 
- 
+<br/>
 
- 
-
-02  리엑트의 전체적인 구성
-
+### 02  리엑트의 전체적인 구성
+```js
 import logo from "./logo.svg";
 import "./App.css";
 
@@ -76,14 +80,13 @@ function App() {
 }
 
 export default App;
- 
+``` 
 
- 
+<br/> 
 
-03  컴포넌트
-
+### 03  컴포넌트
 코드가 길어지고 반복되는 로직이 생길때 번거로움을 최소화해주기 위해 컴포넌트화를 해준다. 부모 컴포넌트는 자식 컴포넌트를 품고 있는 형태를 가진다. 
-
+```js
 // 자식 컴포넌트
 function Child() {
   return <div>나는 자식입니다.</div>;
@@ -93,21 +96,22 @@ function Child() {
 function App() {
   return <Child />;
 }
- 
+``` 
 
 컴포넌트화를 해주지 않은 상태로 바로 사용해서 쓸때에는 이 부모 컴포넌트 부분에 위에서 자식 컴포넌트에서 리턴되는 값이 그대로 들어가있게 된다.
-
+```js
 // 부모 컴포넌트
 function App() {
   return <div>나는 자식입니다.</div>;
 }
- 
+``` 
 
 => 만약 이렇게 같은 값이 반복되는 경우
+![image](https://github.com/limhyerin/TIL/assets/70150896/44d1aad4-92dd-4c50-b10a-0073ac9763cd)
 
 
 그대로 부모컨포넌트에 작성을 쭉 해주기 보다는 자식 컴포넌트를 통해 호출하는 식으로 작성해주면 좋다.
-
+```js
 import React from "react";
 
 // 자식 컴포넌트
@@ -129,6 +133,8 @@ function App() {
 }
 
 export default App;
+```
+```js
 import React from "react";
 
 // 자식 컴포넌트
@@ -150,12 +156,12 @@ function App() {
 }
 
 export default App;
+```
 
- 
+<br/>
 
-예제 ) 할아버지, 엄마, 자식 컴포넌트로 연결해보기
-
-
+#### 예제 ) 할아버지, 엄마, 자식 컴포넌트로 연결해보기
+```js
 import React from "react";
 
 // 할아버지 컴포넌트
@@ -193,5 +199,9 @@ function App() {
 }
 
 export default App;
-🧸회고🧸
+```
+
+<br/>
+
+## 🧸회고🧸
 새롭게 리엑트를 배우기 시작했다! 아직 얼마 듣지 않았지만 간간히 다르게 사용하거나 하면서 헷갈릴때가 있는데 금요일까지 리엑트 강의를 듣고 부족한 부분은 주말에 공부를 추가적으로 해서 제일 기대했던 과제인 Todolist도 이번에는 열심히 잘 만들어봐야겠다.
