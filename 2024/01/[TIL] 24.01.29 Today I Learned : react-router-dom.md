@@ -19,7 +19,9 @@ yarn add react-router-dom
 npm i react-router-dom
 ``` 
 
-#### 03 react-router-dom Hooks - useNavigate
+<br/>
+
+### 03 react-router-dom Hooks - useNavigate
 버튼을 클릭했을 때 보내고자하는 path로 페이지를 이동시킬 수 있도록 하는 것
 ![image](https://github.com/limhyerin/TIL/assets/70150896/695d9069-f2fb-421d-ac0d-b5e0a90a26c7)
 
