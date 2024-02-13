@@ -1,4 +1,4 @@
-![image](https://github.com/limhyerin/TIL/assets/70150896/750cdc5f-f549-4844-b618-f848b46ca877)# ☀️ 2024.01.23 Today I Learned ☀️
+# ☀️ 2024.01.23 Today I Learned ☀️
 >개인과제 분석
 
 <br/>
